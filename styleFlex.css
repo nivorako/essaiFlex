@@ -1,0 +1,18 @@
+#conteneur
+{
+background-color:silver;
+display: flex;
+justify-content: center;
+
+}
+.element
+{
+	width: 30%;
+	height: 100px;
+	background-color: #ff7373;
+	margin: 1em;
+	padding-top: 1em;
+	text-align: center;
+	
+}
+ 
