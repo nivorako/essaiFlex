@@ -1,18 +1,64 @@
 #conteneur
 {
-background-color:silver;
 display: flex;
-justify-content: center;
-
+justify-content: space-between;
+border: solid black 5px;
+height: 300px;
+align-items: baseline;
 }
+
 .element
 {
-	width: 30%;
+	width: 50px;
 	height: 100px;
-	background-color: #ff7373;
-	margin: 1em;
-	padding-top: 1em;
-	text-align: center;
 	
 }
- 
+
+.element:nth-child(1)
+{
+	background-color: orange;
+	overflow: scroll;
+	margin: 1em;
+	padding: 2em;
+	text-align: center;
+}
+.element:nth-child(2)
+{
+	background-color: #00af42;
+	
+	margin: 1em;
+	padding: 2em;
+	text-align: center;
+}
+.element:nth-child(3)
+{
+	background-color: #009f99;
+	
+	margin: 1em;
+	padding: 2em;
+	text-align: center;
+}
+.element:nth-child(4)
+{
+	background-color: #00ff9e;
+	overflow: scroll;
+	margin: 1em;
+	padding: 2em;
+	text-align: center;
+}
+.element:nth-child(5)
+{
+	background-color: #55aeee;
+	overflow: scroll;
+	margin: 1em;
+	padding: 2em;
+	text-align: center;
+}
+.element:nth-child(6)
+{
+	background-color: #f9ae34;
+	overflow: scroll;
+	margin: 1em;
+	padding: 2em;
+	text-align: center;
+}
